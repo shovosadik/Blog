@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User</title>
+        <style>
+            .container{
+                width: 50%;
+                margin: auto;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                background-color: gainsboro;
+            }
+            .input{
+                background-color: rgb(219, 227, 231);
+                width: 90%;
+                height: 50px;
+                margin: 2% 5%;
+                padding: 12px 20px;
+                box-sizing: border-box;
+                border: 2px solid #ccc;
+                border-radius: 4px;
+                background-color: #f8f8f8;
+                font-size: 16px;
+                resize: none;
+                
+            }
+            .button {
+                background-color: #04AA6D; /* Green */
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin-bottom: 5%;
+            }
+        </style>s
+    </head>
+    <body>
+        <form action="/user" method="post">
+            <div class="container">
+                <input class="input" name="name" type="text" placeholder="Name" >
+                <input class="input" name="email" type="email"  placeholder="abcd@xyz.com">
+                <input class="input" name="country" type="text" placeholder="Country">
+                <button class="button" type="submit">Add Usesr</button>
+            </div>
+        </form>
+       
+    </body>
+</html>
